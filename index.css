@@ -1,0 +1,25 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(100, 160, 95, 0.61);
+    display: grid;
+    text-align: center;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.container input {
+    text-align: center;
+    height: 24px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}

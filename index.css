@@ -1,11 +1,10 @@
 body {
     background-color: cadetblue;
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
 .container {
-    /* background-color: rgba(100, 160, 95, 0.61); */
     display: grid;
     text-align: center;
 }
@@ -39,5 +38,16 @@ body {
 
 .button:hover {
     cursor: pointer;
+}
 
+.textContent {
+    display: none;
+    justify-content: center;
+}
+
+.textContent p {
+    font-size: 22px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.89);
+    border-radius: 16px;
 }

@@ -1,4 +1,5 @@
 const form = document.getElementById('inputs');
+const titulo = document.querySelector('h1')
 
 form.addEventListener('submit', function(enviar) {
     enviar.preventDefault();
@@ -14,6 +15,8 @@ form.addEventListener('submit', function(enviar) {
         alert("Por favor preencha os dois campos com algum valor!")
     }
 
+    form.style.opacity = 0;
+    titulo.innerHTML = "Esses são os dados dos seus números escolhidos"   
     
 
 

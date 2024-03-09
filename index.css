@@ -10,11 +10,13 @@ body {
 }
 
 .container h1 {
+    color: rgba(14, 10, 10, 0.85);
     font-weight: 700;
-    font-size: 48px;
+    font-size: 56px;
 }
 
 .inputs {
+    margin-top: 13%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,10 +25,11 @@ body {
 .inputs input {
     width: 100%;
     text-align: center;
-    height: 24px;
-    margin: 8px;
+    height: 46%;
+    margin: 24px;
     border: none;
-    border-radius: 6px;
+    border-radius: 60px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -34,6 +37,7 @@ body {
     color: rgba(255, 255, 255, 0.89);
     background-color: rgba(165, 42, 42, 0.781);
     width: 40%;
+    height: 30%;
 }
 
 .button:hover {
@@ -43,10 +47,12 @@ body {
 .textContent {
     display: none;
     justify-content: center;
+    margin-top: 5%;
 }
 
 .textContent p {
-    font-size: 22px;
+    text-align: center;
+    font-size: 28px;
     padding: 16px;
     background-color: rgba(255, 255, 255, 0.89);
     border-radius: 16px;

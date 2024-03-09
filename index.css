@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    background-color: rgba(100, 160, 95, 0.61);
+    /* background-color: rgba(100, 160, 95, 0.61); */
     display: grid;
     text-align: center;
 }
@@ -15,11 +15,29 @@ body {
     font-size: 48px;
 }
 
-.container input {
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputs input {
+    width: 100%;
     text-align: center;
     height: 24px;
     margin: 8px;
     border: none;
     border-radius: 6px;
     font-weight: bold;
+}
+
+.inputs .button {
+    color: rgba(255, 255, 255, 0.89);
+    background-color: rgba(165, 42, 42, 0.781);
+    width: 40%;
+}
+
+.button:hover {
+    cursor: pointer;
+
 }
